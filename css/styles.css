@@ -1,6 +1,8 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    /* background-image: linear-gradient(to right, #cccccc, grey);
+    margin: 0; */
 }
 
 h1, h2, h3 {
@@ -17,12 +19,14 @@ header h2 {
 
 .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
+    /* background-image: linear-gradient(to bottom, purple, blue, white); */
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    /* background-image: linear-gradient(to right, purple, blue, white); */
     color: white;
     margin: 0
 }
@@ -34,4 +38,18 @@ header h2 {
 }
 .navbar {
     background-color: #901CAD;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none ;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
 }
